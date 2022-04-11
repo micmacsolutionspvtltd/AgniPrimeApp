@@ -151,6 +151,7 @@ struct HomeView: View {
                 }
             }//.ignoresSafeArea()
             .navigationBarHidden(true)
+            // hide background navigation
             .background(
                 NavigationLink(destination: LoginView(), isActive: $logOutClicked) {
                    // LoginView()
