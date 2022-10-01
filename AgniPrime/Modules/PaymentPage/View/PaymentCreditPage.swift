@@ -142,8 +142,7 @@ struct PaymentCreditView: View {
                                         .background(RoundedRectangle(cornerRadius: 8)
                                             .fill(Color.white)
                                             .shadow(color: Color.black.opacity(0.3), radius: 3, x: 1, y: 1))
-                                    //                                            .background(Color.init(Constants.Color.yellowColor))
-                                    //                                            .cornerRadius(10)
+                                  
                                     
                                 }.overlay(VStack {
                                     if linkActive {

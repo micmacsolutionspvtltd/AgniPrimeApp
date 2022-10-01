@@ -35,9 +35,11 @@ struct HomeView: View {
                     VStack(spacing : 40){
                         //   HeaderView
                         HStack{
+                            Text("")
                             Spacer()
                             Text(StorageManager.sharedInstance.getUserName() ?? "")
-                                .padding()
+                                .padding(.leading , 30)
+                            Spacer()
                             Button{
                                StorageManager.sharedInstance.removeLogoutDatas()
                                 logOutClicked = true

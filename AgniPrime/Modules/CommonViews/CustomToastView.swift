@@ -52,8 +52,7 @@ extension View{
 
 struct LoadModifier : ViewModifier{
     @Binding var isShowing : Bool
-//    let textContentValue : String
-//    let duration : TimeInterval
+
     func body(content: Content) -> some View {
         ZStack{
             content
@@ -73,11 +72,7 @@ struct LoadModifier : ViewModifier{
                     
                 }.padding()
                     .onAppear(){
-//                        DispatchQueue.main.asyncAfter(deadline: .now() + duration) {
-//                            withAnimation{
-//                                isShowing = false
-//                            }
-//                        }
+
                     }
          //   }
             }

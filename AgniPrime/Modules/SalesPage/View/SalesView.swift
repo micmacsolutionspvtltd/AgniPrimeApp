@@ -65,9 +65,7 @@ struct SalesView: View {
                 }
             }
                 if finalSubmitClick ?? false{
-//                    viewModel.salesValueGetApi(completionHandler: { result in
-//                        salesValueGetData = result
-//                    })
+                    
                 }
                 if (showSaleOrder != nil){
                     GeometryReader{_ in
@@ -78,10 +76,8 @@ struct SalesView: View {
                                 salesValueGetData = result
                             })
                         }))
-                      //  SaleOrderPopView(showSaleOrder : $showSaleOrder,  enrollmentNumber: enrollMentNumber, submitClicked: $showToast, errorMsg: $showToastText, quantityValue : viewGetModel.stockQuantityDataGet?.quantity ?? "",finalSubmitClick : $finalSubmitClick)
+  
                             .frame(width: 300, height: 370)
-                            //.padding()
-                          //.background(Color.init(Constants.Color.yellowColor))
                              .cornerRadius(8)
                             .position(x: geoMetry.size.width / 2, y: geoMetry.size.height / 2)
 

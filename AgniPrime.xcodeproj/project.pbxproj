@@ -47,6 +47,7 @@
 		04567AC527F3226A008AD698 /* SalesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04567AC427F3226A008AD698 /* SalesListCell.swift */; };
 		04567AC827F338F2008AD698 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04567AC727F338F2008AD698 /* CustomerView.swift */; };
 		04567ACA27F34071008AD698 /* AddSaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04567AC927F34071008AD698 /* AddSaleView.swift */; };
+		048AC84A2833D33100E87863 /* DatePickerViewWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048AC8492833D33100E87863 /* DatePickerViewWithButtons.swift */; };
 		04B85B4027EDD9F1004BD5E2 /* AgniPrimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B85B3F27EDD9F1004BD5E2 /* AgniPrimeApp.swift */; };
 		04B85B4227EDD9F1004BD5E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B85B4127EDD9F1004BD5E2 /* ContentView.swift */; };
 		04B85B4427EDD9F3004BD5E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B85B4327EDD9F3004BD5E2 /* Assets.xcassets */; };
@@ -109,6 +110,7 @@
 		04567AC427F3226A008AD698 /* SalesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesListCell.swift; sourceTree = "<group>"; };
 		04567AC727F338F2008AD698 /* CustomerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerView.swift; sourceTree = "<group>"; };
 		04567AC927F34071008AD698 /* AddSaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSaleView.swift; sourceTree = "<group>"; };
+		048AC8492833D33100E87863 /* DatePickerViewWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewWithButtons.swift; sourceTree = "<group>"; };
 		04B85B3C27EDD9F1004BD5E2 /* AgniPrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgniPrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B85B3F27EDD9F1004BD5E2 /* AgniPrimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgniPrimeApp.swift; sourceTree = "<group>"; };
 		04B85B4127EDD9F1004BD5E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				0410A5AB27FDAE11005A1D13 /* CustomLoaderView.swift */,
 				0410A5AF27FDBC1A005A1D13 /* CustomToastView.swift */,
+				048AC8492833D33100E87863 /* DatePickerViewWithButtons.swift */,
 			);
 			path = CommonViews;
 			sourceTree = "<group>";
@@ -603,6 +606,7 @@
 				04567ABE27F30662008AD698 /* CreditOrderDetailsView.swift in Sources */,
 				0410A5A727FC8DD5005A1D13 /* OtpValidateModel.swift in Sources */,
 				04B85B4227EDD9F1004BD5E2 /* ContentView.swift in Sources */,
+				048AC84A2833D33100E87863 /* DatePickerViewWithButtons.swift in Sources */,
 				04B85B4027EDD9F1004BD5E2 /* AgniPrimeApp.swift in Sources */,
 				0447D18B27F73661005E318D /* RedeemViewModel.swift in Sources */,
 				0447D16D27F5E140005E318D /* OtpModel.swift in Sources */,
@@ -750,6 +754,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AgniPrime/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW2UZC375R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgniPrime/Info.plist;
@@ -781,6 +786,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AgniPrime/Preview Content\"";
+				DEVELOPMENT_TEAM = ZW2UZC375R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AgniPrime/Info.plist;

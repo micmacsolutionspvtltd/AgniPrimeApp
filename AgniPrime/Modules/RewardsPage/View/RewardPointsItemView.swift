@@ -79,7 +79,7 @@ struct RewardPointsItemView: View {
                         }
                        
                     })))
-                  //  RedeemClaimPopupView(imageNames: getImageName, tittle: getTittle,showClaimPopUp :$showClaimPopUp,showOtpPopUp: $showOtpPopup,enrollmentNumber :enrollMentNumber,productId : productId, productPoint : productPoint , totalPoints : totalPoints)
+                
                     
                         .frame(width: 300, height: 250)
                         .padding()
